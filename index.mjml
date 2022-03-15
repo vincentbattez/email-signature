@@ -3,7 +3,7 @@
   <mj-head>
     <mj-breakpoint width="590px" />
     <mj-attributes>
-      <mj-all font-family="Nunito, Arial" color="initial" />
+      <mj-all font-family="Nunito, Arial" color="inherit" />
     </mj-attributes>
     <mj-style>
       @media (max-width: 590px) {
@@ -32,7 +32,7 @@
 
       .link {
         text-decoration: none;
-        color: initial;
+        color: inherit;
       }
       .underline {
         display: inline-block;
@@ -58,8 +58,8 @@
         color: #F19920;
       }
 
-      .color-initial {
-        color: initial;
+      .color-inherit {
+        color: inherit;
       }
       .m-0 {
         margin: 0;
@@ -114,7 +114,7 @@
                 padding="0"
                 width="16px"
                 height="16px"
-                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_cal.svg"
+                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_cal.png"
               />
             </mj-column>
             <mj-column padding="0" padding-left="8px" width="90%">
@@ -144,7 +144,7 @@
                 padding="0"
                 width="16px"
                 height="16px"
-                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_email.svg"
+                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_email.png"
               />
             </mj-column>
             <mj-column padding="0" padding-left="8px" padding-bottom="10px" width="90%">
@@ -162,7 +162,7 @@
                 padding="0"
                 width="16px"
                 height="16px"
-                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_phone.svg"
+                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_phone.png"
               />
             </mj-column>
             <mj-column padding="0" padding-left="8px" padding-bottom="10px" width="90%">
@@ -180,12 +180,12 @@
                 padding="0"
                 width="16px"
                 height="16px"
-                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_website.svg"
+                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_website.png"
               />
             </mj-column>
             <mj-column padding="0" padding-left="8px" width="90%">
               <mj-text padding="0" font-size="14px" font-weight="600">
-                <a href="https://vincentbattez.dev" class="m-0 color-initial">
+                <a href="https://vincentbattez.dev" class="m-0 color-inherit">
                   https://vincentbattez.dev
                 </a>
               </mj-text>
