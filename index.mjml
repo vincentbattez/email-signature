@@ -1,0 +1,198 @@
+<mjml full-width="full-width">
+  <!-- Meta data -->
+  <mj-head>
+    <mj-breakpoint width="590px" />
+    <mj-attributes>
+      <mj-all font-family="Nunito, Arial" color="initial" />
+    </mj-attributes>
+    <mj-style>
+      @media (max-width: 590px) {
+        .hide-mobile {
+          display: none !important;
+        }
+      }
+      .photo {
+        width: 70px !important;
+        max-width: 70px;
+      }
+      .diviser {
+        border-radius: 4px;
+        height: 4px;
+        width: 64px;
+        background: linear-gradient(90deg, #FFCB5B, #F19920);
+      }
+      .diviser-h {
+        width: 64px;
+      }
+      .diviser-v {
+        background: linear-gradient(180deg, #FFCB5B, #F19920);
+        height: 64px;
+        width: 4px;
+      }
+
+      .link {
+        text-decoration: none;
+        color: initial;
+      }
+      .underline {
+        display: inline-block;
+        position: relative;
+      }
+      .underline:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        bottom: -3px;
+        border-radius: 2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #23A5F7;
+      }
+
+      .no-wrap {
+        white-space: nowrap;
+      }
+
+      .color-primary {
+        color: #F19920;
+      }
+
+      .color-initial {
+        color: initial;
+      }
+      .m-0 {
+        margin: 0;
+      }
+    </mj-style>
+    <mj-font
+      name="Nunito"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap"
+    />
+  </mj-head>
+
+  <mj-body width="100%" full-width="full-width">
+    <!-- Top Diviser -->
+    <mj-section padding-top="16px" padding-bottom="0" width="10px">
+      <mj-text>
+        <div class="diviser diviser-h" />
+      </mj-text>
+    </mj-section>
+
+    <mj-section padding="0" padding-bottom="16px" padding-top="24px">
+      <mj-group>
+        <!-- Face -->
+        <mj-column css-class="photo" width="70px">
+          <mj-image
+            href="https://vincentbattez.dev"
+            alt=""
+            align="left"
+            width="70px"
+            height="70px"
+            padding="0"
+            src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-photo_me.png"
+          />
+        </mj-column>
+
+        <!-- Info -->
+        <mj-column width="auto" padding-left="16px">
+          <!-- Vincent Battez -->
+          <mj-text padding="0" padding-bottom="2px" padding-top="6px" font-size="14px" font-weight="800">
+            <h2 class="m-0">Vincent Battez</h2>
+          </mj-text>
+
+          <!-- Dev front -->
+          <mj-text padding="0" font-size="16px" font-weight="600">
+            <p class="color-primary m-0">Développeur Front-end sénior</p>
+          </mj-text>
+
+          <!-- Prendre RDV -->
+          <mj-group width="100%" padding-top="8px">
+            <mj-column width="16px">
+              <mj-image
+                alt=""
+                padding="0"
+                width="16px"
+                height="16px"
+                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_cal.svg"
+              />
+            </mj-column>
+            <mj-column padding="0" padding-left="8px" width="90%">
+              <mj-text padding="0" font-size="14px" font-weight="600">
+                <a href="https://vincentbattez.dev/go/entretien?s=sem" class="m-0 link underline">
+                  Prendre rendez-vous
+                </a>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-column>
+
+        <!-- Diviser -->
+        <mj-column width="auto" padding-left="16px"  css-class="hide-mobile">
+          <mj-text padding="0">
+            <div class="diviser diviser-v" />
+          </mj-text>
+        </mj-column>
+
+        <!-- Social -->
+        <mj-column width="250px" padding-left="16px" padding="0" css-class="hide-mobile">
+          <mj-group width="100%">
+            <!-- Mail -->
+            <mj-column width="16px">
+              <mj-image
+                alt=""
+                padding="0"
+                width="16px"
+                height="16px"
+                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_email.svg"
+              />
+            </mj-column>
+            <mj-column padding="0" padding-left="8px" padding-bottom="10px" width="90%">
+              <mj-text padding="0" font-size="14px" font-weight="600">
+                <a href="mailto:vincent.battez.pro@gmail.com" class="m-0 link">
+                  vincent.battez.pro@gmail.com
+                </a>
+              </mj-text>
+            </mj-column>
+
+            <!-- Phone -->
+            <mj-column width="16px">
+              <mj-image
+                alt=""
+                padding="0"
+                width="16px"
+                height="16px"
+                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_phone.svg"
+              />
+            </mj-column>
+            <mj-column padding="0" padding-left="8px" padding-bottom="10px" width="90%">
+              <mj-text padding="0" font-size="14px" font-weight="600">
+                <a href="tel:+33784293212" class="m-0 link">
+                  (+33) 7 84 29 32 12
+                </a>
+              </mj-text>
+            </mj-column>
+
+            <!-- Portfolio -->
+            <mj-column width="16px">
+              <mj-image
+                alt=""
+                padding="0"
+                width="16px"
+                height="16px"
+                src="https://s3.eu-west-3.amazonaws.com/vincentbattez.dev/email/email-signature-icon_website.svg"
+              />
+            </mj-column>
+            <mj-column padding="0" padding-left="8px" width="90%">
+              <mj-text padding="0" font-size="14px" font-weight="600">
+                <a href="https://vincentbattez.dev" class="m-0 color-initial">
+                  https://vincentbattez.dev
+                </a>
+              </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,16 @@
+{
+  "name": "vb_signature_email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mjml --watch index.mjml -o build/index.html",
+    "build": "mjml index.mjml --config.minify true --config.minifyOptions='{\"minifyCSS\": true, \"removeEmptyAttributes\": false}' -o build/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.12.0"
+  }
+}
